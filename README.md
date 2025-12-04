@@ -41,3 +41,19 @@ Project created by [Your Name]
 
 ## License
 This project is for business and learning purposes.
+---
+
+## Contact Us
+
+Phone:
++2348034412246  
++2348027578080 (WhatsApp)
+
+Instagram:
+https://instagram.com/sugarflaves_cakes
+
+Threads:
+https://threads.net/@sugarflaves_cakes
+
+Facebook:
+https://facebook.com/search/top?q=Sugarflaves%20cakes
