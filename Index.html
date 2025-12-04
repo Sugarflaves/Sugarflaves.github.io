@@ -1,0 +1,90 @@
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <title>Sweet Delights & Yogurt Heights | Premium Bakery in Abuja</title>
+‎    <link rel="stylesheet" href="style.css">
+‎    <script src="https://cdn.tailwindcss.com"></script>
+‎    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+‎    <script src="https://unpkg.com/feather-icons"></script>
+‎    <script src="components/navbar.js"></script>
+‎    <script src="components/footer.js"></script>
+‎    <script src="components/hero.js"></script>
+‎    <script src="components/product-card.js"></script>
+‎</head>
+‎<body class="bg-amber-50">
+‎    <custom-navbar></custom-navbar>
+‎    <custom-hero></custom-hero>
+‎
+‎    <main class="container mx-auto px-4 py-12">
+‎        <!-- Featured Products Section -->
+‎        <section class="mb-16">
+‎            <h2 class="text-3xl font-bold text-amber-800 mb-8 text-center">Our Signature Creations</h2>
+‎            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+‎                <custom-product-card 
+‎                    title="Artisan Bread Basket"
+‎                    description="Freshly baked assortment of our finest breads"
+‎                    price="₦5,500"
+‎                    image="http://static.photos/food/640x360/1">
+‎                </custom-product-card>
+‎                <custom-product-card 
+‎                    title="Yogurt Parfait Delight"
+‎                    description="Creamy yogurt with fresh fruits and granola"
+‎                    price="₦3,200"
+‎                    image="http://static.photos/food/640x360/2">
+‎                </custom-product-card>
+‎                <custom-product-card 
+‎                    title="Chocolate Croissant"
+‎                    description="Buttery flaky pastry with rich chocolate filling"
+‎                    price="₦2,800"
+‎                    image="http://static.photos/food/640x360/3">
+‎                </custom-product-card>
+‎            </div>
+‎        </section>
+‎
+‎        <!-- About Us Section -->
+‎        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+‎            <div class="flex flex-col md:flex-row items-center">
+‎                <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+‎                    <img src="http://static.photos/food/640x360/4" alt="Our Bakery" class="rounded-lg w-full h-auto">
+‎                </div>
+‎                <div class="md:w-1/2">
+‎                    <h2 class="text-2xl font-bold text-amber-800 mb-4">Our Story</h2>
+‎                    <p class="text-gray-700 mb-4">
+‎                        Founded in 2015, Sweet Delights & Yogurt Heights has been serving Abuja with the finest baked goods and artisanal yogurts. Our passion for quality ingredients and traditional baking techniques sets us apart.
+‎                    </p>
+‎                    <p class="text-gray-700 mb-6">
+‎                        Every morning, our bakers craft fresh pastries, breads, and desserts while our yogurt masters prepare the creamiest parfaits in town.
+‎                    </p>
+‎                    <a href="#" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-6 rounded-full transition duration-300 inline-flex items-center">
+‎                        Learn More <i data-feather="arrow-right" class="ml-2"></i>
+‎                    </a>
+‎                </div>
+‎            </div>
+‎        </section>
+‎
+‎        <!-- Testimonials -->
+‎        <section class="mb-16">
+‎            <h2 class="text-3xl font-bold text-amber-800 mb-8 text-center">What Our Customers Say</h2>
+‎            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+‎                <div class="bg-white p-6 rounded-lg shadow-md">
+‎                    <div class="flex items-center mb-4">
+‎                        <div class="text-amber-500 mr-2">
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                        </div>
+‎                    </div>
+‎                    <p class="text-gray-700 mb-4">"The yogurt parfait is to die for! I come here every morning before work."</p>
+‎                    <p class="font-semibold text-amber-800">- Amina B.</p>
+‎                </div>
+‎                <div class="bg-white p-6 rounded-lg shadow-md">
+‎                    <div class="flex items-center mb-4">
+‎                        <div class="text-amber-500 mr-2">
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎                            <i data-feather="star" class="fill-current"></i>
+‎             
